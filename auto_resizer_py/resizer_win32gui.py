@@ -10,15 +10,13 @@ from typing import *
 from time import sleep
 from datetime import datetime
 
+# 第三方库导入
 import win32con
 import win32ui
 import win32gui
 import win32api
 import win32process
 import psutil
-
-
-# 第三方库导入
 
 
 # 本地库/自定义库导入
@@ -36,7 +34,6 @@ import psutil
 # psapi = windll.psapi
 
 # 获取当前屏幕的有效尺寸
-
 
 
 # 实时查看当前窗口
@@ -66,7 +63,7 @@ def getProcessInfo():
     return (process_id, process_name, win_text, class_name)
 
 
-def monitor(target_classname_list:List) -> None:
+def monitor(target_classname_list: List) -> None:
     """
     监控焦点进程的Class Name，根据Target ClassName List判断调整的大小和位置
     
