@@ -1,6 +1,6 @@
-# Small Projects Python
+# Small Projects(PY)
 
-Python的小项目
+Python的小玩意
 
 - [ ] CNKI Excel Analysis：CNKI下载的Excel数据的分析与处理
     - [x] 基础功能：Excel数据分析
@@ -17,4 +17,4 @@ Python的小项目
 
 Python小脚本(全部存放在"KH-Scripts")
 
-- [ ] 
+- [ ] 转移到KH-Private Repo
